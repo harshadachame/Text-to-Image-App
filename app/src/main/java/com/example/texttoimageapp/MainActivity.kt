@@ -63,7 +63,7 @@ fun TextToImageScreen(viewModel: TextToImageViewModel) {
 
         Button(
             onClick = { viewModel.generateImage(prompt.value) },
-            modifier = Modifier.align(Alignment.End)git
+            modifier = Modifier.align(Alignment.End)
         ) {
             Text("Generate Image")
         }
